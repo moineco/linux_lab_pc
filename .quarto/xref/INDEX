@@ -1,0 +1,23 @@
+{
+  "index.qmd": {
+    "index.html": "67f82b38"
+  },
+  "intro.qmd": {
+    "intro.html": "05581513"
+  },
+  "summary.qmd": {
+    "summary.html": "7a564c75"
+  },
+  "references.qmd": {
+    "references.html": "8cc4abed"
+  },
+  "linux.qmd": {
+    "linux.html": "47d31e59"
+  },
+  "emacs.qmd": {
+    "emacs.html": "2ff808cd"
+  },
+  "stata.qmd": {
+    "stata.html": "a390fd56"
+  }
+}

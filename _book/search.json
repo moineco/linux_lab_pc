@@ -1,0 +1,202 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Linux based working environment",
+    "section": "",
+    "text": "Preface\nThis site is designed to provide a comprehensive and structured guide for beginners seeking to set up a Linux-based working environment—specifically using distributions such as Fedora and Ubuntu—for academic and laboratory use. It aims to support users with limited prior experience by offering clear, step-by-step instructions and practical recommendations to facilitate a smooth and efficient setup process.\nThe primary objective of this site is to help users establish a functional and productive computing environment tailored to research and data analysis tasks commonly encountered in laboratory settings.\nThe contents of this site are organized as follows:",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "1  Introduction",
+    "section": "",
+    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "2  Summary",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Summary</span>"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "References"
+    ]
+  },
+  {
+    "objectID": "linux.html",
+    "href": "linux.html",
+    "title": "1  Linux",
+    "section": "",
+    "text": "1.1 Partitioning hard drive",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Linux</span>"
+    ]
+  },
+  {
+    "objectID": "emacs.html",
+    "href": "emacs.html",
+    "title": "2  Emacs",
+    "section": "",
+    "text": "2.1 LinuxOS\nGNU Emacs isn’t a text editor only, it’s the ultimate productivity environment. Emacs can be installed on GNU/Linux, macOS and Windows. Installing Emacs by GUI is straightforward. However, to get a full grip on your installation, using the terminal is recommended. I will explain the ways to installing Emacs by using terminal.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Emacs</span>"
+    ]
+  },
+  {
+    "objectID": "emacs.html#linuxos",
+    "href": "emacs.html#linuxos",
+    "title": "2  Emacs",
+    "section": "",
+    "text": "2.1.1 Fedora\n\nAfter updating the package list in the Fedora Linux system, enter the following command to install the Emacs editor through the DNF package manager:\n\n$ sudo dnf install emacs\n\n\n2.1.2 Ubuntu\n\nAfter updating the package list in the Ubuntu Linux system, enter the following command to install the Emacs editor through the APT package manager:\n\n$ sudo apt install emacs\n\nIf you are using Ubuntu desktop version and want to get the graphical Emacs editor, you can use this command:\n\n$ sudo apt install emacs-gtk\n\nBy executing the previous commands, the graphical version of Emacs, along with its dependencies, will be downloaded and installed.\nAfter you have installed Emacs, run the following command to ensure a successful installation of the Emacs text editor:\n\n$ emacs --version",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Emacs</span>"
+    ]
+  },
+  {
+    "objectID": "emacs.html#macos",
+    "href": "emacs.html#macos",
+    "title": "2  Emacs",
+    "section": "2.2 MacOS",
+    "text": "2.2 MacOS\n\n\n\n\n\n\n\n\n2.2.0.1 MacPorts\n\nInstallation on MacOS with MacPorts is useful!\nInstall MacPorts by following the instructions in https://www.macports.org/install.php\nThe installation command of Emacs by using MacPorts is as below:\n\n$ sudo port install emacs-app",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Emacs</span>"
+    ]
+  },
+  {
+    "objectID": "emacs.html#windows",
+    "href": "emacs.html#windows",
+    "title": "2  Emacs",
+    "section": "2.3 Windows",
+    "text": "2.3 Windows\n\nInstallation on Windows with MSYS2 is convenient!\nInstall MSYS2 by following the instructions in https://www.msys2.org/\nIf you use MSYS2, you can install it using Pacman:\n\npacman -S mingw-w64-x86_64-emacs",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Emacs</span>"
+    ]
+  },
+  {
+    "objectID": "emacs.html#upgrade-elpa",
+    "href": "emacs.html#upgrade-elpa",
+    "title": "2  Emacs",
+    "section": "3.1 Upgrade ELPA",
+    "text": "3.1 Upgrade ELPA\n\nLet’s upgrade the packages installed by ELPA in Emacs\nOpen Emacs and follow the steps through terminal\n\nM-x                 [windows press (Alt+x), for mac press (Option+x)]\nList package        [choose the list packages and press `Enter`]\nShift+u\nx\ny                   [emacs will ask you (y/n). Type `y`]\nEnter               [wait for updates]\nUpdated on: r Sys.Date()",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Emacs</span>"
+    ]
+  },
+  {
+    "objectID": "stata.html",
+    "href": "stata.html",
+    "title": "3  Stata",
+    "section": "",
+    "text": "3.1 Stata17 installation in linux\nFirst copy your Stata17 source file in the Downloads folder of your PC.\nIf the file is in .zip format, unzip to use it. Confirm that the .tar.gz extension file (Linux supported installation file) is located in the Downloads folder.\nI am assuming that you have the licence information ready in your hand during the following installation process:",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Stata</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#linux-installation",
+    "href": "index.html#linux-installation",
+    "title": "Linux based working environment",
+    "section": "1. Linux Installation",
+    "text": "1. Linux Installation\nDetailed guidance on installing popular Linux distributions (e.g., Fedora and Ubuntu), including system requirements, partitioning, and initial configuration.",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "index.html#emacs-setup",
+    "href": "index.html#emacs-setup",
+    "title": "Linux based working environment",
+    "section": "2. Emacs Setup",
+    "text": "2. Emacs Setup\nInstructions for installing and configuring Emacs as a powerful and customizable text editor, with particular emphasis on features useful for programming, LaTeX editing, and research workflows.",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "index.html#stata-installation",
+    "href": "index.html#stata-installation",
+    "title": "Linux based working environment",
+    "section": "3. Stata Installation",
+    "text": "3. Stata Installation\nStep-by-step procedures for installing and setting up Stata on a Linux system, along with basic configuration to ensure compatibility and efficient usage for data analysis.\nTogether, these sections provide a foundational framework for building a reliable and research-oriented Linux environment.",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "linux.html#partitioning-hard-drive",
+    "href": "linux.html#partitioning-hard-drive",
+    "title": "1  Linux",
+    "section": "",
+    "text": "1.1.1 Use fdisk command to delete a hard disk partition:\nfdisk also known as format disk is a dialog-driven command in Linux used for creating and manipulating disk partition table. It is used for the view, create, delete, change, resize, copy and move partitions on a hard drive using the dialog-driven interface. fdisk allows you to create a maximum of four primary partitions and the number of logical partition depends on the size of the hard disk you are using. \n\n\n1.1.2 View all disk partitions:\nThe first thing to do before doing any thing with the disks and partition is to view basic details about all available partition in the system.\n$ sudo fdisk -l\n\n\n1.1.3 View partition on a specific disk:\nBelow command is used to view all disk partitions on device /dev/sda.\n$ sudo fdisk -l /dev/sda\n\n\n1.1.4 Delete a hard disk partition:\nTo delete a partition for the hard disk and free up space occupied by that partition for example /dev/sda. Go to the command menu using following:\n$ sudo fdisk /dev/sda\n\nAnd then type d to go to the delete partition menu. It will prompt the partition number you want to delete (type the number).\nAgain type d to delete the specific partition.\nRun w command to write the changes and reboot the system.\nContinue this process until you delete all target partitions.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nYou can see from the output above that SELinux is enabled and set to enforcing mode.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Linux</span>"
+    ]
+  },
+  {
+    "objectID": "linux.html#selinux",
+    "href": "linux.html#selinux",
+    "title": "1  Linux",
+    "section": "1.2 SELinux",
+    "text": "1.2 SELinux\nSELinux (Security Enhanced Linux ) is a Linux kernel security module that allows administrators and users more control over access controls. It allows access based on SELinux policy rules. SELinux policy rules specify how processes and users interact with each other as well as how processes and users interact with files. When no SELinux policy rule explicitly allows access, such as for a process opening a file, access is denied.\nSELinux has three modes:\n\nEnforcing: SELinux allows access based on SELinux policy rules.\nPermissive: SELinux only logs actions that would have been denied if running in enforcing mode.\nDisabled: No SELinux policy is loaded.\n\nIt is recommended to keep SELinux in enforcing mode, but in some cases, you may need to set it to a permissive mode or disable it completely. In this tutorial, I will show you how to disable SELinux on CentOS 7 systems.\n\n1.2.1 Check the SELinux status\n$ sestatus\nOutput\nSELinux status:                 enabled\nSELinuxfs mount:                /sys/fs/selinux\nSELinux root directory:         /etc/selinux\nLoaded policy name:             targeted\nCurrent mode:                   enforcing\nMode from config file:          enforcing\nPolicy MLS status:              enabled\nPolicy deny_unknown status:     allowed\nMax kernel policy version:      31\nYou can see from the output above that SELinux is enabled and set to enforcing mode.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Linux</span>"
+    ]
+  },
+  {
+    "objectID": "linux.html#gedit-text-editor",
+    "href": "linux.html#gedit-text-editor",
+    "title": "1  Linux",
+    "section": "1.2 Gedit text editor",
+    "text": "1.2 Gedit text editor\n\ngedit is the official text editor of the GNOME desktop environment. While aiming at simplicity and ease of use, gedit is a powerful general purpose text editor.\nWhether you are writing the next bestseller, programming an innovative application, or simply taking some quick notes, gedit will be a reliable tool to accomplish your task.\nIts flexible plugin system allows you to tailor the application to your needs and adapt it to your workflow.\nInstall easily by using terminal.\n\n$ sudo apt install -y gedit # For Ubuntu\n$ sudo dnf install -y gedit # For Fedora\n\nAlternatively, snapd can be installed from the command line:\n\n$ sudo apt install snapd # For Ubuntu\n$ sudo snap install gedit\n\n\n\n\n\n\n\nUpdated on: r Sys.Date()",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Linux</span>"
+    ]
+  },
+  {
+    "objectID": "linux.html#nano-text-editor",
+    "href": "linux.html#nano-text-editor",
+    "title": "1  Linux",
+    "section": "1.4 Nano text editor",
+    "text": "1.4 Nano text editor\nGNU nano (or we call it “nano”) is a simple terminal-based text editor. Some shortcuts include:\nCtrl + X to exit\nCtrl + O to write (or save as)\nAlt + U to undo last action\nUpdated on: r Sys.Date()",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Linux</span>"
+    ]
+  },
+  {
+    "objectID": "emacs.html#use-emacs",
+    "href": "emacs.html#use-emacs",
+    "title": "2  Emacs",
+    "section": "2.4 Use Emacs",
+    "text": "2.4 Use Emacs\n\n2.4.1 Upgrade ELPA\n\nLet’s upgrade the packages installed by ELPA in Emacs\nOpen Emacs and follow the steps through terminal\n\nM-x                 [windows press (Alt+x), for mac press (Option+x)]\nList package        [choose the list packages and press `Enter`]\nShift+u\nx\ny                   [emacs will ask you (y/n). Type `y`]\nEnter               [wait for updates]\nUpdated on: r Sys.Date()",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Emacs</span>"
+    ]
+  },
+  {
+    "objectID": "stata.html#stata17-installation-in-linux",
+    "href": "stata.html#stata17-installation-in-linux",
+    "title": "3  Stata",
+    "section": "",
+    "text": "3.1.1 Step 1: Create the installation directory, and change location into it\n$ cd Downloads\n$ mkdir statainstall\n$ tar -xvzf Stata17Linux64.tar.gz -C statainstall\n\n\n3.1.2 Step 2: Create the installation directory, and change location into it\n$ sudo mkdir /usr/local/Stata17\n$ cd /usr/local/Stata17\n\n\n3.1.3 Step 3: Run the install script\n$ sudo ~/Downloads/statainstall/install\nHere, you will start the installation process and Stata17 will provide you the steps to complete. Follow these steps one by one and complete until the end.\n\n\n3.1.4 Step 4: Configure the license file\n$ sudo ./stinit\nAgain, Stata17 will ask you for several conformations and you need to respond properly.\n\n\n3.1.5 Step 5: Running Stata17 with a graphical user interface using the command\n$ ./xstata\n\nIf you have a problem to execute the above code, you need to install gtk2\nYou can install by:\n\n$ sudo apt install gtk2 # For Ubuntu\n$ sudo dnf install gtk2 # For Fedora\n\n\n3.1.6 Step 6: Unity launcher and desktop file\n\nEven after successfully installing and running Stata17, in Ubuntu/Fedora it won’t be available as an application in the dash, and it won’t have a proper icon in the application launcher.\nTo complete this step, you need a text editor. In this tutorial, I am using gedit which is the official text editor of the GNOME desktop environment. If your PC don’t contain it, you can install easily by using terminal.\n\n$ sudo apt install -y gedit # For Ubuntu\n$ sudo dnf install -y gedit # For Fedora\n\nThen we can easily fix this by creating a .desktop file for Stata17.\n\n$ sudo gedit /usr/share/applications/Stata17.desktop\n\nIn this newly-created file just copy and paste the following, obviously adjusting it if you have a different version or flavor of Stata:\n\n[Desktop Entry]\nVersion=17\nTerminal=false\nIcon=/usr/local/Stata17/stata17.png\nType=Application\nCategories=Education;Scientific;\nExec=/usr/local/Stata17/xstata\nName=Stata/BE 17\nComment=Perform statistical analyses using Stata.\nStartupNotify=true\nMimeType=application/x-stata-dta;application/x-stata-do;application/x-stata-smcl;application/x-stata-stpr;application/x-stata-gph;application/x-stata-stsem;\nActions=doedit;use;view;graphuse;projmanag;semopen;\n\n\n3.1.7 Step 7: Stata update process\n\nIf SELinux is enabled in your PC, use following command to provide permission to your Stata to get updated. If SELinux is disabled, the following step is not necessary.\n\n$ sudo chmod -R 777 '/usr/local/Stata17'\n\nIf your internet connection is through a proxy server, add the proxy information inside your Stata to ensure update process as below.\n\na. Open Stata\nb. Go to Preferences\nc. General Preferences\nd. Internet\ne. add the proxy information. For KUT [proxy.noc.kochi-tech.ac.jp] and port [3128]\nf. Go to Help\ng. Update\nUpdated on: r Sys.Date()",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Stata</span>"
+    ]
+  }
+]
