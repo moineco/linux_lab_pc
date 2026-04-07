@@ -164,5 +164,3 @@ x
 y                   [emacs will ask you (y/n). Type `y`]
 Enter               [wait for updates]
 ```
-
-Updated on: `r Sys.Date()`

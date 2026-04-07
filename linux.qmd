@@ -148,5 +148,3 @@ $ sudo snap install gedit
 <!-- Ctrl + O to write (or save as) -->
 <!-- Alt + U to undo last action -->
 <!-- ``` -->
-
-Updated on: `r Sys.Date()`

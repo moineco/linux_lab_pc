@@ -115,5 +115,3 @@ e. add the proxy information. For KUT [proxy.noc.kochi-tech.ac.jp] and port [312
 f. Go to Help
 g. Update
 ```
-
-Updated on: `r Sys.Date()`
